@@ -1,4 +1,3 @@
-New-Item -Path .\nuget\build\native\include -ItemType Directory -Force
-Copy-Item .\*.h .\nuget\build\native\include\
+Copy-Item .\*.h .\nuget\build\native
 Copy-Item .\README.md .\nuget
 nuget pack nuget

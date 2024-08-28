@@ -1,2 +1,3 @@
-nuget/build/native/include
+nuget/build/native/*.h
+nuget/README.md
 *.nupkg
